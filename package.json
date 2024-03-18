@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "pnpm run \"/dev:/\"",
     "dev:tsc": "tsc --watch --preserveWatchOutput",
-    "dev:node": "node --watch dist/index.js"
+    "dev:node": "node --enable-source-maps --watch dist/index.js"
   },
   "keywords": [],
   "author": "Matt Pocock",
